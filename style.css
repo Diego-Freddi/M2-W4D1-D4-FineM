@@ -8,10 +8,13 @@ body {
 
 #logo {
     width: 12vw;
+    margin: 75px 20px 20px 20px;
+
 }
 
 header {
-    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -19,7 +22,8 @@ header {
 }
 
 h3 {
-    color:rgb(233 233 233)
+    color:rgb(233 233 233);
+    padding: 10px;
 }
 
 #corpo {
@@ -27,10 +31,6 @@ h3 {
     background-size: cover;
     min-height: 90vh;
     padding-bottom: 20px; 
-}
-
-#corpo img {
-    margin: 20px;
 }
 
 h1 {
@@ -44,6 +44,7 @@ h1 {
     display: flex;
     gap: 14px;
     font-size: 15px;
+    padding: 10px;
 }
 
 .menu {
@@ -100,7 +101,6 @@ section {
 
 .search input {
     font-size: xx-large;
-    margin-top: 5px;
     width: 21vw;
     border-radius: 12px;
     border: none;
@@ -116,8 +116,7 @@ section {
 
 #ricerca {
     width: 100px;
-    height: 48px;
-    align-self: flex-end;
+    align-items: flex-end;
     background-color: bisque;
     border: none;
     border-radius: 12px;
