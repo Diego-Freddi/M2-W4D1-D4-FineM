@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#logo {
+    width: 12vw;
+}
+
+header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-image: linear-gradient(45deg, #29251c, #ecebe6d4);
+}
+
+h3 {
+    color:rgb(233 233 233)
+}
+
+#corpo {
+    background-image: url(assets/pexels-ron-lach-9832718.jpg);
+    background-size: cover;
+    min-height: 90vh;
+    padding-bottom: 20px; 
+}
+
+#corpo img {
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px 4px 20px 4px;
+    color: white;
+    font-size: 204%;
+}
+
+#icons {
+    display: flex;
+    gap: 14px;
+    font-size: 15px;
+}
+
+.menu {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    color: #171616;;
+}
+
+.menu ion-icon {
+    font-size: large;
+    color: black;
+    transition: transform 0.3s;
+}
+
+.menu ion-icon:hover{
+    transform: scale(1.2);
+}
+
+#cv {
+    background-color: black;
+    color: #b2b0a5;
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 2px;
+    text-decoration: none;
+    transition: transform 0.3s;
+}
+
+#cv:hover {
+    transform: scale(1.2);
+}
+
+#sfondo {
+    background-color: #00000059;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 20px 10px 20px;
+    border-radius: 25px;
+}
+
+section {
+    margin-inline: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.search {
+    font-size: 20px;
+}
+
+.search input {
+    font-size: xx-large;
+    margin-top: 5px;
+    width: 21vw;
+    border-radius: 12px;
+    border: none;
+    padding: 5px;
+    outline: none;
+}
+
+.search input::placeholder {
+    color: #b2b0a5;
+    font-size: 2vw;
+        
+}
+
+#ricerca {
+    width: 100px;
+    height: 48px;
+    align-self: flex-end;
+    background-color: bisque;
+    border: none;
+    border-radius: 12px;
+}
+
+#ricerca:hover {
+    background-color: rgb(255, 205, 143);
+    cursor: pointer;
+}
+
+#output {
+    margin-inline: 4px;
+}
+
+#risultato {
+    padding-left: 0;
+    padding-bottom: 15px;
+}
+
+.job {
+    background-color:#b2febca8;
+    font-size: x-large;
+    color: #095700;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    list-style-type: none;
+}
+#nothing {
+    background-color: #ffdcabe5;
+    color: #ff3700;
+    font-size: large;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.empty {
+    background-color: #ff0000bd;
+    color:#eaff00;
+    font-size: large;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    list-style-type: none;
+}
+
+footer {
+    height: 8vh;
+    background-color: #353535;
+    color: #b2b0a5;
+    text-align: center;
+    font-size: medium;
+    padding-top: 20px;
+}
+
+footer a {
+    color: #b2b0a5;
+
+}
